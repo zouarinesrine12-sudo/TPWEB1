@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Person Form</title>
+</head>
+<body>
+
+    <h1>Person Information</h1>
+
+    <form action="bean.jsp" method="post">
+
+        <label>First Name:</label>
+        <input type="text" name="firstName" required>
+        <br><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="lastName" required>
+        <br><br>
+
+        <label>Birth Day:</label>
+        <input type="text" name="birthDay" required>
+        <br><br>
+
+        <label>Sex:</label>
+        <select name="sex" required>
+            <option value="">Select your sex</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
+```

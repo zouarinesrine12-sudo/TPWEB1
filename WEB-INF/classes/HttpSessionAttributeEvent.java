@@ -1,0 +1,6 @@
+/**
+ * HttpSessionAttributeEvent
+ */
+public class HttpSessionAttributeEvent {
+
+}
